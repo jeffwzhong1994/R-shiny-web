@@ -12,7 +12,7 @@ RUN sudo apt-get update && apt-get install -y \
 RUN install2.r --error \ 
     -r 'http://cran.rstudio.com' \
     googleAuthR \
-    dplR \
+    dplyr \
     lubridate \
     shiny \
     shinydashboard \
